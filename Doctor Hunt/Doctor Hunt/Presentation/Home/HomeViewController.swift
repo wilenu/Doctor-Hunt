@@ -11,6 +11,13 @@ class HomeViewController: UIViewController {
     UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
     UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
     UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
+    UserModel(profilePic: "logo", userName: "name", description: "ios Developer"),
     ]
     
     init(dataSource: HomeDataSource,
