@@ -3,7 +3,6 @@ import UIKit
 
 class HomeDataSource: NSObject{
     weak var viewcontroller: HomeViewController?
-    
 }
 
 extension HomeDataSource : UITableViewDataSource {
