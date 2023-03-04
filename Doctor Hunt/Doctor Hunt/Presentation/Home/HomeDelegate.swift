@@ -3,7 +3,6 @@ import UIKit
 
 class HomeDelegate: NSObject {
     weak var viewcontroller: HomeViewController?
-    
 }
 
 extension HomeDelegate: UITableViewDelegate {
@@ -11,6 +10,5 @@ extension HomeDelegate: UITableViewDelegate {
         guard let vc = viewcontroller else { return }
         let data = vc.list[indexPath.row]
         print("\(data.userName)")
-    }
-    
+    }    
 }
