@@ -26,6 +26,5 @@ class TabBarController: UITabBarController {
         profileVC.tabBarItem.title = "Perfil"
         
         setViewControllers([homeVC,favoritesVC,categoriesVC,profileVC], animated: true)
-
     }
 }
